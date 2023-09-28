@@ -10,6 +10,7 @@ namespace equals_demo
     {
         private int _width = 525600; //Seasons of love
         private int _height;
+        private int numtrue = 0;
 
         public Box (int _width, int height)
         {
@@ -30,6 +31,7 @@ namespace equals_demo
             //from here, use otherBox because it is the object cast as a box
             //make the comparisons to determine if the objects are equal or not, and return true or fals
             return this._width.Equals(otherBox._width) && this._height.Equals(otherBox._height);
+            
         }
 
         //overload ==
