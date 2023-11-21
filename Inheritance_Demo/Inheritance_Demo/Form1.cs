@@ -32,7 +32,7 @@ namespace Inheritance_Demo
             //what if we upcast?
             //because we upcasted, the CDrawer clear gets invoked
             ((CDrawer)ballCanvas).Clear();
-
+            canvas1.AddSignature();
             ballCanvas.AddSignature();
 
             ballCanvas.Render();
