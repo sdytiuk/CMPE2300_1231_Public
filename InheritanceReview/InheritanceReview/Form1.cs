@@ -96,11 +96,14 @@ namespace InheritanceReview
             {
                 return "NO!";
             }
+
+            //public abstract void ForLiam();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            canadianList.Add(new NAITStudent("Diego", "Oyarzun"));
+            canadianList.Add(new NAITStudent("Diego", "Uwannano"));
         }
     }
 }
